@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol type="I">
+        <li>Home</li>
+        <li>Contact us </li>
+        <li>About</li>
+
+    </ol>
+    <img src="https://images.pexels.com/photos/31167872/pexels-photo-31167872/free-photo-of-tokyo-skytree-framed-by-urban-alleyway.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" width="300" height="500">
+<table border="1"> 
+<tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Mobile</th>
+    <th>Email</th>
+</tr>
+<tr>
+    <td>john kadenge</td>
+    <td>city stadium</td>
+    <td>0712345678</td>
+    <td>kadenge@gmail.com</td>
+</tr>
+<tr>
+    <td>smith row</td>
+    <td>stadium</td>
+    <td>0722345648</td>
+    <td>smith@gmail.com</td>
+</tr>
+<tr>
+    <td>sarah davis</td>
+    <td>kisumu</td>
+    <td>0732434343</td>
+    <td>sarahdavis@gmail.com</td>
+</tr>
+<tr>
+    <td> james hardway</td>
+    <td>nakuru</td>
+    <td>07964544545</td>
+    <td>jameshardd@gmail.com</td>
+</tr>
+<tr>
+    <td>kafuri moses</td>
+    <td>mombasa</td>
+    <td>07843234432</td>
+    <td>kafurimoses@gmail.com</td>
+</tr>
+</table>
+
+< ! Registration form -- >
+<form action="register" method="post">
+    <h2> Registration Form </h2>
+
+    <label for="Name">Name</label>
+    <input type="text" id="Name" Name="Name" placeholder="Enter Name"><br><br>
+
+    <label for="Email">Email</label>
+    <input type="email" id="Email" Name="Email" placeholder="Enter Email"><br><br>
+
+    <label for="Password">Password</label>
+    <input type="password" id="Password" Name="Password" placeholder="Enter Password"><br><br>
+
+    <label for="Date">Date of birth</label>
+    <input type="date" id="Date" Name="Date" placeholder="Enter Date"><br><br>
+
+<label for="country"></label> 
+<select id="country" name="country" required>
+    <option value="">Select your country</option>
+    <option value="usa">Kenya</option>
+    <option value="canada">Tanzania</option>
+    <option value="uk">uganda</option>
+
+    <!--Radio box-->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br><br>
+
+    <!--check box-->
+    <label>Interests:</label>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label><br><br>
+   
+    <!-- Submit Button -->
+         <input type="submit" value="Register">
+</form>
+</body>
+</html>
